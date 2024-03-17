@@ -355,6 +355,7 @@ button {
     }
     .input-box {
       width: 265px;
+      margin-block: 4px;
     }
     button{
         width: 90%;
@@ -381,6 +382,6 @@ button {
     }
     .heading {
        
-        max-width: 275px;
+        max-width: 265px;
     } 
 }
