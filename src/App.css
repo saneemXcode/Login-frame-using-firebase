@@ -410,14 +410,13 @@ button {
         height: 85px;
 
     }
-    .input-box .input-line {
+    .input-box .icon {
         position: absolute;
-        bottom: 10px;
-        left: 0;
-        width: 100%;
-        height: 2.5px;
-        background: #fff;
+        right: 8px;
+        top: 25px;
+        color: #fff;
+        font-size: 1.2em;
+        line-height: 57px;
         transition: .5s ease;
     }
-    
 }
