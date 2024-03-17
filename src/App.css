@@ -351,6 +351,7 @@ button {
     }
     .login-light {
         width: 345px;
+        margin-left: -10px;
     }
     .input-box {
       width: 265px;
