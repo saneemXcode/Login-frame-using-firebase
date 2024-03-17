@@ -394,7 +394,7 @@ button {
         position: absolute;
         top: 50%;
         left: 5px;
-        transform: translateY(-70%);
+        transform: translateY(-55%);
         font-size: 1em;
         color: #fff;
         pointer-events: none;
