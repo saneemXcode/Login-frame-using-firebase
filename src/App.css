@@ -354,8 +354,7 @@ button {
         align-items: center;
     }
     .login-light {
-        width: 100%;
-        margin-left: -20px;
+        width: 600px;
     }
     .input-box {
       width: 265px;
