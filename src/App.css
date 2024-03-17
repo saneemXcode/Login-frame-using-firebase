@@ -376,4 +376,7 @@ button {
         .light {
           clip-path: polygon(16% 0, 84% 0, 100% 100%, 0 100%);
       }
+      .remember-forgot {
+        font-size: .8em;
+    }
 }
