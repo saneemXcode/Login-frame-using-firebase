@@ -379,4 +379,8 @@ button {
       .remember-forgot {
         font-size: .8em;
     }
+    .heading {
+       
+        max-width: 275px;
+    } 
 }
