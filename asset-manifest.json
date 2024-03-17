@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/Login-frame-using-firebase/static/css/main.0dfd4cce.css",
+    "main.css": "/Login-frame-using-firebase/static/css/main.af3f2058.css",
     "main.js": "/Login-frame-using-firebase/static/js/main.3b4bfdcc.js",
     "static/js/453.92614854.chunk.js": "/Login-frame-using-firebase/static/js/453.92614854.chunk.js",
     "index.html": "/Login-frame-using-firebase/index.html",
-    "main.0dfd4cce.css.map": "/Login-frame-using-firebase/static/css/main.0dfd4cce.css.map",
+    "main.af3f2058.css.map": "/Login-frame-using-firebase/static/css/main.af3f2058.css.map",
     "main.3b4bfdcc.js.map": "/Login-frame-using-firebase/static/js/main.3b4bfdcc.js.map",
     "453.92614854.chunk.js.map": "/Login-frame-using-firebase/static/js/453.92614854.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.0dfd4cce.css",
+    "static/css/main.af3f2058.css",
     "static/js/main.3b4bfdcc.js"
   ]
 }
