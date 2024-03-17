@@ -168,15 +168,17 @@ export class App extends Component {
     const provider = new GoogleAuthProvider();
     signInWithPopup(auth, provider)
       .then((result) => {
-       
         this.setState({ message: "Google sign-in successful", type: 1 });
       })
       .catch((error) => {
-        // Handle error
         console.error("Error signing in with Google:", error);
-        this.setState({ message: error.message, type: 0 });
+        if (error.code === 'auth/account-exists-with-different-credential') {
+          this.setState({ message: "Email already exists", type: 0 });
+        } else {
+          this.setState({ message: error.message, type: 0 });
+        }
       });
-  };
+};
 
       
       
