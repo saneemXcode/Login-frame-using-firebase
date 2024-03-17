@@ -125,6 +125,8 @@ export class App extends Component {
       .then((data) => {
         if(data.user.emailVerified===true){
           this.setState({ message: "Login successful", type: 1},()=>{  
+            event.target.email.value=""
+            event.target.password.value=""
           })
         }
        else{
