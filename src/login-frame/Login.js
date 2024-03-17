@@ -67,6 +67,9 @@ export class Login extends Component {
                             <a href="#">Forgot Password?</a>
                         </div>
                         <button type="submit">Login</button>
+                        <button type="button" id='btngoogle' onClick={this.props.Google}>Sign With With Google
+                        <ion-icon name="logo-google" className="google"></ion-icon>
+                        </button>
                         <div className="register-link">
                             <p>Don't have an account? <a href="#" onClick={this.props.pageSwitch}>Register</a></p>
                         </div>

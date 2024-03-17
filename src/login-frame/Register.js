@@ -72,10 +72,6 @@ export class Register extends Component {
                         </div>
 
                         <button type="submit">Sign Up</button>
-                        <button type="button" id='btngoogle' onClick={this.props.Google}>Login With Google
-                        <ion-icon name="logo-google" className="google"></ion-icon>
-                        </button>
-
                     </form>
                 </div>
 

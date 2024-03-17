@@ -171,12 +171,9 @@ export class App extends Component {
         this.setState({ message: "Google sign-in successful", type: 1 });
       })
       .catch((error) => {
-        console.error("Error signing in with Google:", error);
-        if (error.code === 'auth/account-exists-with-different-credential') {
-          this.setState({ message: "Email already exists", type: 0 });
-        } else {
-          this.setState({ message: error.message, type: 0 });
-        }
+        
+          this.setState({ message:"Failed to Login ",type: 0 });
+      
       });
 };
 
@@ -198,6 +195,7 @@ export class App extends Component {
           messageclear={this.messageclear}
           name={this.state.name}
           pageSwitch={this.pageSwitchHandler}
+          Google={this.googleHandler}
         />
          ):(
       
@@ -206,7 +204,6 @@ export class App extends Component {
      register={this.SignUpHandler}
      message={this.state.message}
      type={this.state.type}
-     Google={this.googleHandler}
      />
          )
   }
