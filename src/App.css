@@ -341,7 +341,7 @@ button {
     .login-box {
         position: relative;
         top: 25px;
-        width: 300px;
+        width: 285px;
         height: 550px;
         background: #191919;
         border-radius: 20px;
@@ -354,7 +354,7 @@ button {
         width: 345px;
     }
     .input-box {
-      width: 275px;
+      width: 250px;
     }
     .toggle {
         
