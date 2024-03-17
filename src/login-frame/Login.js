@@ -43,7 +43,7 @@ export class Login extends Component {
                             <span className="icon">
                                 <ion-icon name="mail"></ion-icon>
                             </span>
-                            <input type="email" required name='email' />
+                            <input type="email" required name='email' autocomplete="off" />
                             <label>Email</label>
                             <div className="input-line"></div>
                         </div>

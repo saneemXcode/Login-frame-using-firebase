@@ -100,9 +100,17 @@ export class App extends Component {
   
         // Check if the error code indicates that the email already exists
         if (error.code === 'auth/email-already-in-use') {
-          this.setState({ message: "Email already exists", type: 0 });
+          this.setState({ message: "Email already exists", type: 0 },()=>{
+            event.target.email.value=""
+            event.target.password.value=""
+            event.target.confirmpassword.value=""
+          });
         } else {
-          this.setState({ message: errorMessage, type: 0 });
+          this.setState({ message: errorMessage, type: 0 },()=>{
+            event.target.email.value=""
+            event.target.password.value=""
+            event.target.confirmpassword.value=""
+          });
         }
       });
   };
