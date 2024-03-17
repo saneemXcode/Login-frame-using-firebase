@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/Login-frame-using-firebase/static/css/main.1db8411e.css",
-    "main.js": "/Login-frame-using-firebase/static/js/main.e1b10170.js",
+    "main.css": "/Login-frame-using-firebase/static/css/main.25dfa600.css",
+    "main.js": "/Login-frame-using-firebase/static/js/main.3b4bfdcc.js",
     "static/js/453.92614854.chunk.js": "/Login-frame-using-firebase/static/js/453.92614854.chunk.js",
     "index.html": "/Login-frame-using-firebase/index.html",
-    "main.1db8411e.css.map": "/Login-frame-using-firebase/static/css/main.1db8411e.css.map",
-    "main.e1b10170.js.map": "/Login-frame-using-firebase/static/js/main.e1b10170.js.map",
+    "main.25dfa600.css.map": "/Login-frame-using-firebase/static/css/main.25dfa600.css.map",
+    "main.3b4bfdcc.js.map": "/Login-frame-using-firebase/static/js/main.3b4bfdcc.js.map",
     "453.92614854.chunk.js.map": "/Login-frame-using-firebase/static/js/453.92614854.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.1db8411e.css",
-    "static/js/main.e1b10170.js"
+    "static/css/main.25dfa600.css",
+    "static/js/main.3b4bfdcc.js"
   ]
 }
